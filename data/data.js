@@ -47,8 +47,8 @@ const heroProjects = [
     discription:
       " Actually, the fourth project is the portfolio itself, made using the Next.js framework," +" "+
       " the Tailwind Css library was used for styling.",
-    livePage: "",
-    code: "",
+    livePage: "https://resume-steel-five.vercel.app/",
+    code: "https://github.com/PavloGram/resume",
     stack: [ 'Html5', 'Css3', 'JavaScript', 'Bem', 'Next.js', 'Tailwind Css'],
     img: portfolio
   },
