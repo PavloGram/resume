@@ -26,7 +26,11 @@ const heroProjects = [
   {
     id: 2,
     discription:
-      "This is also an educational project, but already a group one, in which I played the role of teamLead.",
+      "This is also an educational project, but already a group one, in which I played the role of teamLead."+" "+
+      "This web application is written on the React framework, styling is done using the Styled Components library,"+" "+ 
+      "styles are created for viewing on three types of devices, mobile devices, tablets with a width of 768px,"+" "+
+      "and a desktop version with a width of 1280px, this application allows you to view a list of popular movies"+" "+
+        "as well as movies by search, view more detailed information in a modal window, and save movies in two lists:'watched' and 'queue'.",
     livePage: "https://pavlogram.github.io/project-group-13/",
     code: "https://github.com/PavloGram/project-group-13",
     stack: ["Html5", "Css3", "JavaScript", "Sass", "Bem"],
