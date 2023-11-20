@@ -1,3 +1,6 @@
+import { Roboto_Slab } from 'next/font/google';
+ 
+export const inter = Roboto_Slab({ subsets: ['latin'] });
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -8,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.className} antialiased`}>
       <body className=" mx-auto flex flex-col min-h-full text-gray-800">
         {children}
         <Footer />

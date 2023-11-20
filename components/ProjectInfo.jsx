@@ -20,10 +20,16 @@ function ProjectInfo() {
                 <div>
                   <p className="indent-3">{el.discription}</p>
                   <p className="font-semibold">
-                    Live page:<a href={el.livePage} className="hover:text-gray-500">{el.livePage}</a>
+                    Live page:
+                    <a href={el.livePage} className="hover:text-gray-500">
+                      {el.livePage}
+                    </a>
                   </p>
                   <p className="font-semibold">
-                    Code:<a href={el.code} className="hover:text-gray-500">{el.code}</a>
+                    Code:
+                    <a href={el.code} className="hover:text-gray-500">
+                      {el.code}
+                    </a>
                   </p>
                   <div className="flex flex-wrap items-center gap-2">
                     <p className="font-semibold">Stack: </p>
