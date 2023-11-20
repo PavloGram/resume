@@ -9,8 +9,8 @@ function Modal({ isActiveModal, setIsActiveModal, currentImage }) {
           className="fixed top-0 left-0 w-full h-full bg-black/[0.5] flex justify-center items-center"
           onClick={() => setIsActiveModal(false)}
         >
-            <div className="w-[340px] sm:w-[500px]  p-5 bg-white pointer-events-auto">
-              <Image src={currentImage} alt='big photo' width={912} height={1280}/>
+            <div className="w-[340px] sm:w-[500px]  p-5 bg-white pointer-events-auto" onClick={(e) => e.stopPropagation()}>
+              <Image src={`/page${currentImage}.jpg`} alt='big photo' width={912} height={1280}/>
             </div>
         </div>
       )}

@@ -4,7 +4,7 @@ import React from "react";
 
 function HeroInfo() {
   return (
-    <div className="max-w-[340px] mb-3 sm:mr-3 sm:mb-0 max-h-full bg-gray-800 flex flex-col p-5 text-white rounded-md ">
+    <div className="max-w-[340px] mb-3 sm:mr-3 sm:mb-0 max-h-full bg-gray-800 flex flex-col p-5 text-gray-300 rounded-md ">
       <div className="w-[300px] h-[300px] rounded-full overflow-hidden mb-10">
         <Image
           src="/hero.jpg"
@@ -14,7 +14,7 @@ function HeroInfo() {
           priority={true}
         />
       </div>
-      <div className="border rounded-md border-white p-2 mb-3">
+      <div className="border rounded-md border-gray-300 p-2 mb-3">
         <p>My contacts:</p>
         <ul className="flex flex-wrap ml-3 ">
           {heroContacts.map((el) => {
@@ -22,20 +22,20 @@ function HeroInfo() {
               <li key={el.id}>
                 <p>
                   {el.name}
-                  <a href={el.href}>{el.shortHref}</a>
+                  <a href={el.href} className="hover:text-gray-400">{el.shortHref}</a>
                 </p>
               </li>
             );
           })}
           <li>
-            <a href="https://en.wikipedia.org/wiki/Ukraine" className="ml-0">
+            <a href="https://en.wikipedia.org/wiki/Ukraine" className="ml-0 hover:text-gray-400">
               I&#39;m from Ukraine
             </a>
           </li>
         </ul>
       </div>
 
-      <div className=" border rounded-md border-white p-2">
+      <div className=" border rounded-md border-gray-300 p-2">
         <p>My skills:</p>
         <ul className="flex flex-wrap gap-1 ml-3">
           {heroSkills.map((el, index) =>

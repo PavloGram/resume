@@ -15,7 +15,7 @@ export default function Gallery() {
   }
   return (
     <>
-      <div className="flex flex-col  mt-3 border rounded-md border-black p-2 bg-gray-100">
+      <div className="flex flex-col  mt-3 border rounded-md border-gray-800 p-2 bg-gray-100">
         <p className="text-center text-3xl mb-3">Goit school certificate</p>
         <ul className="flex justify-center gap-5">
           {images.map((el, index) => (
@@ -26,14 +26,14 @@ export default function Gallery() {
                 width={100}
                 height={200}
                 className="cursor-pointer  hover:scale-110"
-                onClick={() => handleChangeState(el.src)}
+                onClick={() => handleChangeState(el.id)}
               />
             </li>
           ))}
         </ul>
       </div>
       <Modal
-      currentImage={currentImage}
+      currentImage ={currentImage}
         isActiveModal={isActiveModal}
         setIsActiveModal={setIsActiveModal}
       />
