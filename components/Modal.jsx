@@ -31,12 +31,20 @@ function Modal({
               <CloseIcon width={25} height={25} />
             </button>
             {currentImage === 1 ? null : (
-              <button type="button" className="absolute top-[50%] -left-1" onClick={() => setCurrentImage(currentImage -= 1)}>
+              <button
+                type="button"
+                className="absolute top-[50%] -left-1"
+                onClick={() => setCurrentImage((currentImage -= 1))}
+              >
                 <LeftIcon width={30} />
               </button>
             )}
             {images.length === currentImage ? null : (
-              <button type="button" className="absolute top-[50%] right-0" onClick={() => setCurrentImage(currentImage += 1)}>
+              <button
+                type="button"
+                className="absolute top-[50%] right-0"
+                onClick={() => setCurrentImage((currentImage += 1))}
+              >
                 <RightIcon width={30} />
               </button>
             )}

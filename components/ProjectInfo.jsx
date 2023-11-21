@@ -21,31 +21,32 @@ function ProjectInfo() {
                   <p className="indent-3">{el.discription}</p>
                   <p className="font-semibold">
                     Live page:
-                    <a href={el.livePage} className="transition duration-150 hover:text-gray-500">
+                    <a
+                      href={el.livePage}
+                      className="transition duration-150 hover:text-gray-500"
+                    >
                       {el.livePage}
                     </a>
                   </p>
                   <p className="font-semibold">
                     Code:
-                    <a href={el.code} className="transition duration-150 hover:text-gray-500">
+                    <a
+                      href={el.code}
+                      className="transition duration-150 hover:text-gray-500"
+                    >
                       {el.code}
                     </a>
                   </p>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <p className="font-semibold">Stack: </p>
-                    <ul className="flex flex-wrap gap-1">
-                      {el.stack.map((element, index) =>
-                        Number(el.stack.length) === index + 1 ? (
-                          <li className="m-0" key={index}>
-                            <p>{element}.</p>
-                          </li>
-                        ) : (
-                          <li className="m-0" key={index}>
-                            <p>{element},</p>
-                          </li>
-                        )
-                      )}
-                    </ul>
+                  <div className="flex flex-wrap items-center ">
+                    <p className="font-semibold pr-1">Stack: </p>
+
+                    {el.stack.map((element, index) =>
+                      Number(el.stack.length) === index + 1 ? (
+                        <p key={index} className="pr-1">{element}.</p>
+                      ) : (
+                        <p key={index} className="pr-1">{element},</p>
+                      )
+                    )}
                   </div>
                 </div>
 

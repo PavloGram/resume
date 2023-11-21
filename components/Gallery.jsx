@@ -6,12 +6,11 @@ import Modal from "./Modal";
 
 export default function Gallery() {
   const [isActiveModal, setIsActiveModal] = useState(false);
-  const [currentImage, setCurrentImage] = useState('');
+  const [currentImage, setCurrentImage] = useState("");
 
-  function handleChangeState(src){
-    setIsActiveModal(true)
-      setCurrentImage(src)
-   
+  function handleChangeState(src) {
+    setIsActiveModal(true);
+    setCurrentImage(src);
   }
   return (
     <>
@@ -33,8 +32,8 @@ export default function Gallery() {
         </ul>
       </div>
       <Modal
-      setCurrentImage={setCurrentImage}
-      currentImage ={currentImage}
+        setCurrentImage={setCurrentImage}
+        currentImage={currentImage}
         isActiveModal={isActiveModal}
         setIsActiveModal={setIsActiveModal}
       />
