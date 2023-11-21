@@ -22,7 +22,7 @@ function HeroInfo() {
               <li key={el.id}>
                 <p>
                   {el.name}
-                  <a href={el.href} className="hover:text-gray-400">
+                  <a href={el.href} className=" transition duration-150 hover:text-gray-400">
                     {el.shortHref}
                   </a>
                 </p>
@@ -32,7 +32,7 @@ function HeroInfo() {
           <li>
             <a
               href="https://en.wikipedia.org/wiki/Ukraine"
-              className="ml-0 hover:text-gray-400"
+              className="ml-0 transition duration-150 hover:text-gray-400"
             >
               I&#39;m from Ukraine
             </a>

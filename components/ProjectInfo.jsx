@@ -21,13 +21,13 @@ function ProjectInfo() {
                   <p className="indent-3">{el.discription}</p>
                   <p className="font-semibold">
                     Live page:
-                    <a href={el.livePage} className="hover:text-gray-500">
+                    <a href={el.livePage} className="transition duration-150 hover:text-gray-500">
                       {el.livePage}
                     </a>
                   </p>
                   <p className="font-semibold">
                     Code:
-                    <a href={el.code} className="hover:text-gray-500">
+                    <a href={el.code} className="transition duration-150 hover:text-gray-500">
                       {el.code}
                     </a>
                   </p>
@@ -51,7 +51,7 @@ function ProjectInfo() {
 
                 <a
                   href={el.livePage}
-                  className="min-w-[300px] md:min-w-[180px] md:max-w-[180px] cursor-pointer hover:scale-105"
+                  className="min-w-[300px] md:min-w-[180px] md:max-w-[180px] cursor-pointer transition duration-150 hover:scale-105"
                 >
                   <Image src={el?.img} alt="work photo" width={1800} />
                 </a>

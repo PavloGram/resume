@@ -30,3 +30,9 @@ a {
   margin-left: 4px;
   font-weight: 400;
 }
+button * {
+  stroke: #1f2937;
+}
+button:hover * {
+ stroke: #6b7280 ;
+} 
