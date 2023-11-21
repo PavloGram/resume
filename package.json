@@ -12,9 +12,7 @@
     "ionicons": "^7.2.1",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "react-grid-gallery": "^1.0.1-alpha.0",
-    "simplelightbox": "^2.14.2"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
