@@ -6,21 +6,21 @@ import Image from "next/image";
 function ProjectInfo() {
   return (
     <>
-      <div className="min-w-[340px] max-w-[340px] sm:max-w-[948px] ">
+      <div className=" max-w-[340px] sm:max-w-[948px] ">
         <div className="border rounded-md border-gray-800 p-2 bg-gray-100">
           <p className="indent-3">{aboutHero}</p>
         </div>
 
-        <Gallery />
-        <div className="border rounded-md border-gray-800 p-2 mt-3 bg-gray-100 overflow-hidden ">
+        <Gallery /> 
+         <div className="border rounded-md border-gray-800 p-2 mt-3 bg-gray-100  ">
           <p className="text-3xl text-center">Projects</p>
           <ul className="flex flex-col gap-3 ">
             {heroProjects.map((el) => (
-              <li key={el.id} className="md:flex md:justify-between md:gap-3">
+              <li key={el.id} className="lg:flex lg:justify-between md:gap-3">
                 <div>
                   <p className="indent-3">{el.discription}</p>
                   <p
-                    className="font-semibold "
+                    className="font-semibold w-[270px] md:w-[400px] lg:w-full"
                     style={{
                       textOverflow: "ellipsis",
                       overflow: "hidden",
@@ -36,7 +36,7 @@ function ProjectInfo() {
                     </a>
                   </p>
                   <p
-                    className="font-semibold"
+                    className="font-semibold w-[270px] md:w-[400px] lg:w-full"
                     style={{
                       textOverflow: "ellipsis",
                       overflow: "hidden",
