@@ -12,27 +12,41 @@ function ProjectInfo() {
         </div>
 
         <Gallery />
-        <div className="border rounded-md border-gray-800 p-2 mt-3 bg-gray-100">
+        <div className="border rounded-md border-gray-800 p-2 mt-3 bg-gray-100 overflow-hidden ">
           <p className="text-3xl text-center">Projects</p>
-          <ul className="flex flex-col gap-3">
+          <ul className="flex flex-col gap-3 ">
             {heroProjects.map((el) => (
               <li key={el.id} className="md:flex md:justify-between md:gap-3">
                 <div>
                   <p className="indent-3">{el.discription}</p>
-                  <p className="font-semibold">
+                  <p
+                    className="font-semibold "
+                    style={{
+                      textOverflow: "ellipsis",
+                      overflow: "hidden",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
                     Live page:
                     <a
                       href={el.livePage}
-                      className="transition duration-150 hover:text-gray-500"
+                      className="transition duration-150 hover:text-gray-500   "
                     >
                       {el.livePage}
                     </a>
                   </p>
-                  <p className="font-semibold">
+                  <p
+                    className="font-semibold"
+                    style={{
+                      textOverflow: "ellipsis",
+                      overflow: "hidden",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
                     Code:
                     <a
                       href={el.code}
-                      className="transition duration-150 hover:text-gray-500"
+                      className="transition duration-150 hover:text-gray-500 "
                     >
                       {el.code}
                     </a>
@@ -42,9 +56,13 @@ function ProjectInfo() {
 
                     {el.stack.map((element, index) =>
                       Number(el.stack.length) === index + 1 ? (
-                        <p key={index} className="pr-1">{element}.</p>
+                        <p key={index} className="pr-1">
+                          {element}.
+                        </p>
                       ) : (
-                        <p key={index} className="pr-1">{element},</p>
+                        <p key={index} className="pr-1">
+                          {element},
+                        </p>
                       )
                     )}
                   </div>
