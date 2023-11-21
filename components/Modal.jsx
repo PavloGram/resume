@@ -16,11 +16,11 @@ function Modal({
     <>
       {isActiveModal && (
         <div
-          className="fixed top-0 left-0 w-full h-full bg-black/[0.5] flex justify-center items-center"
+          className="fixed top-0 left-0 w-full h-full bg-black/[0.5] flex justify-center items-start lg:items-center overflow-y-auto"
           onClick={() => setIsActiveModal(false)}
         >
           <div
-            className="relative w-[340px] sm:w-[500px]  p-5 pt-10 bg-white pointer-events-auto"
+            className="relative mt-2 p-5 pt-10 bg-white pointer-events-auto  w-[340px] min-h-[500px] h-[500px] sm:w-auto sm:h-[90%]"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -53,6 +53,7 @@ function Modal({
               alt="big photo"
               width={912}
               height={1280}
+            className="w-full h-full"
             />
           </div>
         </div>
