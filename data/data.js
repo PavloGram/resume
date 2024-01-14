@@ -1,6 +1,7 @@
 import jsHw from "../public/js-home-work.jpg";
 import htmlHw from "../public/html-home-work.jpg";
 import portfolio from "../public/portfolio.jpg";
+import provider from "../public/provider.jpg";
 const heroSkills = [
   "Html5",
   "Css3",
@@ -10,6 +11,7 @@ const heroSkills = [
   "React.js",
   "TypeScript",
   "Redux",
+  "Zustand",
   "Styled-components",
   "Next.js",
   "Tailwind Css",
@@ -17,53 +19,35 @@ const heroSkills = [
 const heroProjects = [
   {
     id: 1,
-    discription: "A simple learning project written in pure JavaScript.",
-    livePage: "https://pavlogram.github.io/goit-markup-hw-08/",
-    code: "https://github.com/PavloGram/goit-markup-hw-08",
-    stack: ["Html5", "Css3", "JavaScript", "Sass", "Bem"],
+    discription:
+      "Проект 'Веб студія' фреймворк Next.js, для стилізації використав TailwindCss.",
+    livePage: "https://web-studio-next-gamma.vercel.app/",
+    code: "https://github.com/PavloGram/web-studio-next",
+    stack: ["Html5", "Css3", "JavaScript", "Sass"],
     img: htmlHw,
   },
   {
     id: 2,
     discription:
-      "This is also an educational project, but already a group one, in which I played the role of teamLead." +
-      " " +
-      "This web application is written on the React framework, styling is done using the Styled Components library," +
-      " " +
-      "styles are created for viewing on three types of devices, mobile devices, tablets with a width of 768px," +
-      " " +
-      "and a desktop version with a width of 1280px, this application allows you to view a list of popular movies" +
-      " " +
-      "as well as movies by search, view more detailed information in a modal window, and save movies in two lists: 'watched' and 'queue'.",
-    livePage: "https://pavlogram.github.io/project-group-13/",
-    code: "https://github.com/PavloGram/project-group-13",
-    stack: ["Html5", "Css3", "JavaScript", "Sass", "Bem"],
-    img: jsHw,
+      "Проект 'Інтернет провайдер', фреймворк Next.js, для стилізації використав TailwindCss, менеджер стану Zustand.",
+    livePage: "https://portfolio-project-provider.vercel.app/",
+    code: "https://github.com/PavloGram/portfolio-project-provider",
+    stack: ["Html5", "Css3", "JavaScript", "Sass"],
+    img: provider,
   },
   {
     id: 3,
     discription:
-      "This is a repeat of the previous project, only done by me using the React framework," +
-      " " +
-      "the Styled-components library was used for styling.",
-    livePage: "https://spectacular-dango-301146.netlify.app/",
-    code: "https://github.com/PavloGram/film",
-    stack: [
-      "Html5",
-      "Css3",
-      "JavaScript",
-      "Bem",
-      "React.js",
-      "Styled-components",
-    ],
+      "Проект 'Фільмотека', фреймворк Next.js, для стилізації використав Scss, менеджер стану Redux.",
+    livePage: "https://film-next-rho.vercel.app/",
+    code: "https://github.com/PavloGram/film-next",
+    stack: ["Html5", "Css3", "JavaScript", "Bem", "Next.js", "Scss"],
     img: jsHw,
   },
   {
     id: 4,
     discription:
-      " Actually, the fourth project is the portfolio itself, made using the Next.js framework," +
-      " " +
-      " the Tailwind Css library was used for styling.",
+      "Проект 'Портфоліо', фреймворк Next.js, для стилізації використав TailwindCss.",
     livePage: "https://resume-pied-pi.vercel.app/",
     code: "https://github.com/PavloGram/resume",
     stack: ["Html5", "Css3", "JavaScript", "Bem", "Next.js", "Tailwind Css"],
