@@ -82,13 +82,5 @@ const heroContacts = [
 ];
 
 const aboutHero =
-  "Hello my name is Pavlo Hramazhora, I am a Front-End developer, my stack is React.js and related" +
-  " " +
-  "technologies Next.js Tailwind Styled-components, I like minimalism" +
-  " " +
-  "when writing code, that is, only the necessary set of tools and" +
-  " " +
-  "technologies, I like to learn new development technologies and solve" +
-  " " +
-  "complex tasks.";
+  "Вітаю, мене звати Павло Грамажора, я є Front-End розробником, володію навичками Html розмітки, стилізації за допомогою Css а також бібліотек (Style-components, TailwindCss, Css.module), володію також мовою JavaScript а саме фреймфорком React і похідним фреймворком Next, мені подобається кодити).      ";
 export { heroContacts, heroProjects, heroSkills, aboutHero };
