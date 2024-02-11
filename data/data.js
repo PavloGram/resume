@@ -3,6 +3,13 @@ import htmlHw from "../public/html-home-work.jpg";
 import portfolio from "../public/portfolio.jpg";
 import provider from "../public/provider.jpg";
 const heroSkills = [
+  "On-page SEO",
+  "Off-page (Off-site) SEO",
+  "Seo аналітика",
+  "Збір семантичного ядра та кластеризація його", 
+  "Google Search Console", 
+  "Google Tag Manager", 
+  // "", 
   "Html5",
   "Css3",
   "Sass",
@@ -38,7 +45,7 @@ const heroProjects = [
   {
     id: 3,
     discription:
-      "Проект 'Фільмотека', фреймворк Next.js, для стилізації використав Scss, менеджер стану Redux.",
+      "Проект 'Фільмотека', фреймворк Next.js, для стилізації використав Scss, менеджер стану Redux. В цьому проекті написав свою пагінацію.",
     livePage: "https://film-next-rho.vercel.app/",
     code: "https://github.com/PavloGram/film-next",
     stack: ["Html5", "Css3", "JavaScript", "Bem", "Next.js", "Scss"],
@@ -82,5 +89,6 @@ const heroContacts = [
 ];
 
 const aboutHero =
-  "Вітаю, мене звати Павло Грамажора, я є Front-End розробником, володію навичками Html розмітки, стилізації за допомогою Css а також бібліотек (Style-components, TailwindCss, Css.module), володію також мовою JavaScript а саме фреймфорком React і похідним фреймворком Next, мені подобається кодити).      ";
-export { heroContacts, heroProjects, heroSkills, aboutHero };
+  "Вітаю, мене звати Павло Грамажора, я є Front-End розробником який зацікавився SEO, володію навичками Html розмітки, стилізації за допомогою Css, а також бібліотек (Style-components, TailwindCss, Css.module), володію також мовою JavaScript, та фреймфорком React.js і похідним фреймворком Next.js.  В процесі вивчення фронтенду познайомився з Seo-оптимізацією і зрозумів що, без грамотного плану-оптимізації 90% веб-додатків немає сенсу будувати. Вивчаю Seo по чек-листу з сайту Serpstat (посилання даю нижче), Вважаю цей скілл дуже крутим і планую розвивати в собі навички та вміння володіння оптимізацією додатків і надалі. Люблю працювати, беру на себе відповідальність не тільки за успіхи, а і за невдачі. Девіз - підкова не буде приносити тобі вдачі рівно до того моменту, доки ти її не приб’єш до свого копита і не почнеш працювати!     ";
+const serpStatLink = "https://serpstat.com/ru/blog/chto-dolzhen-znat-seo-spetcialist/";
+  export { heroContacts, heroProjects, heroSkills, aboutHero, serpStatLink };
