@@ -15,6 +15,12 @@ function ProjectInfo() {
           >
             Посилання на чек-лист &apos;що повинен знати seo-junior&apos;
           </a>
+          <a
+            className="  transition duration-150 hover:text-gray-500 block indent-3"
+            href="https://skillshop.credential.net/330caa09-099b-422b-8cd1-462f47cf3d5a#gs.4owwjg"
+          >
+            Посилання на сертифікат Google Analytics
+          </a>
         </div>
 
         <Gallery />
