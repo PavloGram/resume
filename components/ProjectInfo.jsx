@@ -21,6 +21,12 @@ function ProjectInfo() {
           >
             Посилання на сертифікат Google Analytics
           </a>
+          <a
+            className="  transition duration-150 hover:text-gray-500 block indent-3"
+            href="https://app.academyocean.com/verify/y5aJI9tQZwO2Ec9i"
+          >
+            Посилання на сертифікат Serpstat
+          </a>
         </div>
 
         <Gallery />
