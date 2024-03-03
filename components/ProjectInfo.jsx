@@ -8,29 +8,67 @@ function ProjectInfo() {
     <>
       <div className=" max-w-[340px] sm:max-w-[948px] ">
         <div className="border rounded-md border-gray-800 p-2 bg-gray-100">
-          <p className="indent-3 pb-4">{aboutHero}</p>
-          <a
-            className="  transition duration-150 hover:text-gray-500 inline-block indent-3"
+          <p className="indent-3 pb-4">
+            Вітаю, мене звати Павло Грамажора, я є SEO-junior. Володію навичка
+            оптимізації веб додатків, а саме проведення аудиту сайтів на
+            наявність помилок які можуть заважати просуванню, та складання ТЗ
+            для спеціалістів які будуть вносити правки. Можу збирати семантичне
+            ядро, чистити, та кластеризувати його.
+          </p>
+          <p className="indent-3 pb-4">
+            Можу налаштовувати файли robots.txt, sitemap.xml. Знайомий з такими
+            інструментами та поняттями, як Google Search Console, Serpstat,
+            Screaming Frog, Google Docs, Google Sheets, мікророзмітка, інтент запиту,
+            частотність ключа, типи сайтів, YMYL фактори, E-A-T фактори. Маю
+            сертифікат Google Analytics, Serpstat та сертифікат від школи GoIt
+            про проходження курсів за спеціальністю Front-end developer.
+          </p>
+          <p className="indent-3 pb-4">
+            Також маю некомерційний досвід Front-end розробки, добре розбираюся
+            в мові розмітка Html, мові стилізації Css, володію непоганим рівнем
+            знання JavaScript.
+          </p>
+          <p className="indent-3 pb-4">
+            До приходу в Іт майже 8 років працював у сфері виготовлення
+            весільної сувенірної продукції, працював з деревом, воском, фарбами.
+            Працював на себе. Дякую за Вашу увагу, буду вдячний за будь-який
+            фідбек.
+          </p>
+          <p className="indent-3 pb-4 font-semibold text-center pt-5">
+            Нижче подаю посилання на сертифікати та курси по яких вивчав і
+            вивчаю Seo.
+          </p>
+          <div className="flex flex-col">
+                 <a
+            className="  transition duration-150 hover:text-gray-500  indent-3"
             href={serpStatLink}
           >
-            Посилання на чек-лист &apos;що повинен знати seo-junior&apos;
+            Посилання на чек-лист Serpstat &apos;що повинен знати
+            seo-junior&apos;
+          </a>
+          <a 
+          className="  transition duration-150 hover:text-gray-500  indent-3"
+          href="https://www.youtube.com/watch?v=T9PPUg5o5YU&list=PL7Ssx9xkm05JT0VbpdZ0h0ju0bzXzvKQF&index=2">
+            Посилання на безкоштовний відео курс по SEO
           </a>
           <a
-            className="  transition duration-150 hover:text-gray-500 block indent-3"
+            className="  transition duration-150 hover:text-gray-500 indent-3"
             href="https://skillshop.credential.net/330caa09-099b-422b-8cd1-462f47cf3d5a#gs.4owwjg"
           >
             Посилання на сертифікат Google Analytics
           </a>
           <a
-            className="  transition duration-150 hover:text-gray-500 block indent-3"
+            className="  transition duration-150 hover:text-gray-500 indent-3"
             href="https://app.academyocean.com/verify/y5aJI9tQZwO2Ec9i"
           >
             Посилання на сертифікат Serpstat
           </a>
+          </div>
+     
         </div>
 
         <Gallery />
-        <div className="border rounded-md border-gray-800 p-2 mt-3 bg-gray-100  ">
+        {/* <div className="border rounded-md border-gray-800 p-2 mt-3 bg-gray-100  ">
           <p className="text-3xl text-center">Projects</p>
           <ul className="flex flex-col gap-3 ">
             {heroProjects.map((el) => (
@@ -95,7 +133,7 @@ function ProjectInfo() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

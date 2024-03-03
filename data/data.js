@@ -5,11 +5,8 @@ import provider from "../public/provider.jpg";
 const heroSkills = [
   "On-page SEO",
   "Off-page (Off-site) SEO",
-  "Seo аналітика",
-  "Збір семантичного ядра та кластеризація його", 
-  "Google Search Console", 
-  "Google Tag Manager", 
-  // "", 
+  "Google Search Console",
+  "Google Tag Manager",
   "Html5",
   "Css3",
   "Sass",
@@ -17,8 +14,6 @@ const heroSkills = [
   "JavaScript",
   "React.js",
   "TypeScript",
-  "Redux",
-  "Zustand",
   "Styled-components",
   "Next.js",
   "Tailwind Css",
@@ -89,6 +84,33 @@ const heroContacts = [
 ];
 
 const aboutHero =
-  "Вітаю, мене звати Павло Грамажора, я є junior SEO, володію базовими навичка оптимізації веб додатків, а саме збір семантичного ядра та кластеризація його, робота з зовнішньою оптимізацією у вигляді побудови бек-лінків, внутрішньою оптимізацією сайту для проходження ним індексації гугл ботом, налаштування файлів robots.txt, sitemap.xml, знайомий з такими інструментами як Google Search Console, Serpstat, Screaming Frog, маю сертифікат Google Analytics посилання на нього дам нижче, маю сертифікат від Serpstat про навчання на їхньому курсі теж посилання буде внизу. Також маю досвід Front-end розробки добре розбираюся в мові розмітка Html, мові стилізації Css, також володію непоганим рівнем знання JavaScript і кількох фреймворків. В портфоліо приклади моїх front-end робіт без seo-оптимізації. Дякую за увагу, буду вдячний за будь-який фідбек.";
-const serpStatLink = "https://serpstat.com/ru/blog/chto-dolzhen-znat-seo-spetcialist/";
-  export { heroContacts, heroProjects, heroSkills, aboutHero, serpStatLink };
+  "Вітаю, мене звати Павло Грамажора, я є SEO-junior. Володію навичка оптимізації веб додатків," +
+  " " +
+  "а саме проведення аудиту сайтів на наявність помилок які можуть заважати просуванню, та складання ТЗ для" +
+  " " +
+  "спеціалістів які будуть вносити правки. Можу збирати семантичне ядро, чистити," +
+  " " +
+  "та кластеризувати його." +
+  " " +
+  "Можу налаштовувати файли robots.txt, sitemap.xml. Знайомий з такими інструментами та поняттями," +
+  " " +
+  "як Google Search Console, Serpstat, Screaming Frog, Google Docs, Google Sheets, інтент запиту, частотність ключа," +
+  " " +
+  "типи сайтів, YMYL фактори," +
+  " " +
+  "E-A-T фактори. Маю сертифікат Google Analytics, Serpstat та сертифікат від школи GoIt про проходження курсів" +
+  " " +
+  "за спеціальністю Front-end." +
+  " " +
+  "Також маю некомерційний досвід Front-end розробки, добре розбираюся в мові розмітка Html, мові стилізації Css," +
+  " " +
+  "володію непоганим рівнем знання JavaScript." +
+  " " +
+  "До приходу в Іт майже 8 років працював у сфері виготовлення весільної сувенірної продукції," +
+  " " +
+  "працював з деревом, воском, фарбами. Працював на себе." +
+  " " +
+  "Дякую за Вашу увагу, буду вдячний за будь-який фідбек.";
+const serpStatLink =
+  "https://serpstat.com/ru/blog/chto-dolzhen-znat-seo-spetcialist/";
+export { heroContacts, heroProjects, heroSkills, aboutHero, serpStatLink };

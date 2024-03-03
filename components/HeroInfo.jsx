@@ -15,7 +15,7 @@ function HeroInfo() {
         />
       </div>
       <div className="border rounded-md border-gray-300 p-2 mb-3">
-        <p>My contacts:</p>
+        <p>Мої контакти:</p>
         <ul className="flex flex-wrap ml-3 ">
           {heroContacts.map((el) => {
             return (
@@ -44,7 +44,7 @@ function HeroInfo() {
       </div>
 
       <div className=" border rounded-md border-gray-300 p-2">
-        <p>My skills:</p>
+        <p>Мої скіли:</p>
         <ul className="flex flex-wrap gap-1 ml-3">
           {heroSkills.map((el, index) =>
             Number(heroSkills.length) === index + 1 ? (
