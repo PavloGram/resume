@@ -13,7 +13,7 @@ function ProjectInfo() {
             оптимізації веб додатків, а саме проведення аудиту сайтів на
             наявність помилок які можуть заважати просуванню в пошуковій видачі, та складання ТЗ
             для спеціалістів які будуть вносити правки. Можу збирати семантичне
-            ядро, чистити, та кластеризувати його.
+            ядро, чистити, та кластеризувати його, також маю базові навички лінкбілдингу.
           </p>
           <p className="indent-3 pb-4">
             Можу налаштовувати файли robots.txt, sitemap.xml. Знайомий з такими
@@ -51,6 +51,10 @@ function ProjectInfo() {
           href="https://www.youtube.com/watch?v=T9PPUg5o5YU&list=PL7Ssx9xkm05JT0VbpdZ0h0ju0bzXzvKQF&index=2">
             Посилання на безкоштовний відео курс по SEO
           </a>
+          <a
+            className="  transition duration-150 hover:text-gray-500  indent-3"
+            href="https://www.youtube.com/watch?v=QqV1q2iLQSA&list=PL2ZhfqtiZ-nEHkxCl4iGELITz05dAcpr_&index=1"
+          >Посилання на курс з лінкбілдингу UA</a>
           <a
             className="  transition duration-150 hover:text-gray-500 indent-3"
             href="https://skillshop.credential.net/330caa09-099b-422b-8cd1-462f47cf3d5a#gs.4owwjg"
